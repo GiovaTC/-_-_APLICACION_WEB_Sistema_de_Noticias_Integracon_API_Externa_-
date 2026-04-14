@@ -1,7 +1,9 @@
 # -_-_APLICACION_WEB_Sistema_de_Noticias_Integracon_API_Externa_- :. 
 ICACIÓN WEB: Sistema de Noticias (Integración API Externa):
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e70e974b-091f-45e9-a718-578e3b557c01" />  
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e70e974b-091f-45e9-a718-578e3b557c01" />    
+
+<img width="2544" height="1045" alt="image" src="https://github.com/user-attachments/assets/20fe9852-a2a2-4514-8620-0e387bdcd93d" />    
 
 ```
 
