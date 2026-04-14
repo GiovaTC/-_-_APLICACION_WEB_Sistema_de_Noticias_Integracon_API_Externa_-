@@ -12,15 +12,17 @@ import java.util.Map;
 public class NewsApiClient {
 
     private final String API_KEY = "20db8cff73f14151b2f1b07be029bb3d";
-    private final String URL = "https://newsapi.org/v2/top-headlines";
+    private final String BASE_URL = "https://newsapi.org";
 
     public List<Noticia> obtenerNoticias(String pais) {
 
-        WebClient webClient = WebClient.create();
+        WebClient webClient = WebClient.builder()
+                .baseUrl(BASE_URL)
+                .build();
 
         Map response = webClient.get()
                 .uri(uriBuilder -> uriBuilder
-                        .path(URL)
+                        .path("/v2/top-headlines") // ✔ solo path
                         .queryParam("country", pais)
                         .queryParam("apiKey", API_KEY)
                         .build())
