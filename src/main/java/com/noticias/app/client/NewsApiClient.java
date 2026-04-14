@@ -39,5 +39,5 @@ public class NewsApiClient {
             n.setFuente(((Map) a.get("source")).get("name").toString());
             return n;
         }).toList();
-    }   
+    }
 }
