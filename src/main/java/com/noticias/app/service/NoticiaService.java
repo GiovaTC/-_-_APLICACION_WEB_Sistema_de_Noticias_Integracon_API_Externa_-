@@ -16,4 +16,4 @@ public class NoticiaService {
     public List<Noticia> listarNoticias(String pais) {
         return client.obtenerNoticias(pais);
     }
-}   
+}
