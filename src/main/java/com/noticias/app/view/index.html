@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>noticias</title>
+</head>
+<body>
+h1>Noticias Internacionales</h1>
+
+<form action="/buscar">
+    <input type="text" name="pais" placeholder="Ej: us, co, mx">
+    <button type="submit">Buscar</button>
+</form>
+
+<div th:each="n : ${noticias}">
+    <h3 th:text="${n.titulo}"></h3>
+    <p th:text="${n.descripcion}"></p>
+    <a th:href="${n.url}" target="_blank">Leer más</a>
+    <hr>
+</div>
+</body>
+</html>
