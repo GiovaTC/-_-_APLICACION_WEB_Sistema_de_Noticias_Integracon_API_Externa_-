@@ -39,5 +39,5 @@ public class Noticia {
 
     public void setFuente(String fuente) {
         this.fuente = fuente;
-    }   
+    }
 }
