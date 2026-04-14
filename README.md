@@ -4,6 +4,8 @@ ICACIÓN WEB: Sistema de Noticias (Integración API Externa):
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e70e974b-091f-45e9-a718-578e3b557c01" />    
 
 <img width="2551" height="1030" alt="image" src="https://github.com/user-attachments/assets/7fa9b6f0-0fb6-4f6d-99f8-d50bb41af7e2" />    
+
+<img width="2552" height="1036" alt="image" src="https://github.com/user-attachments/assets/aca12a05-1602-466c-bff1-bb184ba30ec0" />    
     
 ```
 
